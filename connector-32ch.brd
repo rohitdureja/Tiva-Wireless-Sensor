@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0025" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1440,15 +1440,15 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
+<param name="mdSmdPad" value="10mil"/>
+<param name="mdSmdVia" value="10mil"/>
+<param name="mdSmdSmd" value="10mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
@@ -2427,15 +2427,15 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="24.13" y1="23.495" x2="24.13" y2="17.907" width="0.2032" layer="1"/>
 <wire x1="24.13" y1="17.907" x2="19.304" y2="13.081" width="0.2032" layer="1"/>
 <wire x1="19.304" y1="13.081" x2="18.7325" y2="13.081" width="0.2032" layer="1"/>
-<polygon width="0.2032" layer="1">
-<vertex x="26.543" y="24.0665"/>
-<vertex x="23.495" y="24.0665"/>
-<vertex x="23.495" y="22.606"/>
-<vertex x="17.8435" y="22.606"/>
-<vertex x="17.8435" y="2.54"/>
-<vertex x="23.4315" y="2.54"/>
-<vertex x="23.4315" y="0.9525"/>
-<vertex x="26.543" y="0.9525"/>
+<polygon width="0.254" layer="1">
+<vertex x="22.5425" y="23.495"/>
+<vertex x="26.0985" y="23.495"/>
+<vertex x="26.0985" y="1.651"/>
+<vertex x="22.6695" y="1.651"/>
+<vertex x="22.6695" y="8.636"/>
+<vertex x="17.907" y="8.636"/>
+<vertex x="17.907" y="16.8275"/>
+<vertex x="22.5425" y="16.8275"/>
 </polygon>
 </signal>
 <signal name="G">
@@ -2449,15 +2449,16 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="2.54" y1="1.651" x2="2.54" y2="7.493" width="0.2032" layer="1"/>
 <wire x1="2.54" y1="7.493" x2="7.366" y2="12.319" width="0.2032" layer="1"/>
 <wire x1="7.366" y1="12.319" x2="7.9375" y2="12.319" width="0.2032" layer="1"/>
-<polygon width="0.2032" layer="1">
-<vertex x="0.1905" y="23.9395"/>
-<vertex x="3.2385" y="23.9395"/>
-<vertex x="3.2385" y="22.6695"/>
-<vertex x="8.763" y="22.6695"/>
-<vertex x="8.763" y="2.667"/>
-<vertex x="3.2385" y="2.667"/>
-<vertex x="3.2385" y="0.9525"/>
-<vertex x="0.1905" y="0.9525"/>
+<polygon width="0.254" layer="1">
+<vertex x="1.9685" y="23.622"/>
+<vertex x="4.191" y="23.622"/>
+<vertex x="4.191" y="16.764"/>
+<vertex x="8.4455" y="16.764"/>
+<vertex x="8.4455" y="8.509"/>
+<vertex x="4.3815" y="8.509"/>
+<vertex x="4.3815" y="1.5875"/>
+<vertex x="0.6985" y="1.5875"/>
+<vertex x="0.6985" y="23.622"/>
 </polygon>
 </signal>
 </signals>
