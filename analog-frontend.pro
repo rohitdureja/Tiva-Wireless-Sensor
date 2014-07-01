@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Lab/Google Drive/Workspace/Eagle/tiva-wireless-sensor/Tiva-Wireless-Sensor/Tiva-Wireless-Sensor/analog-frontend.brd
 
-Start at      : 19:06:06 (6/30/2014)
-End at        : 19:06:10 (6/30/2014)
-Elapsed time  : 00:00:04
+Start at      : 16:06:53 (7/1/2014)
+End at        : 16:06:58 (7/1/2014)
+Elapsed time  : 00:00:05
 
-Signals       :    66   RoutingGrid: 5 mil  Layers: 2
-Connections   :   160   predefined:  77 ( 5 Vias )
+Signals       :    79   RoutingGrid: 2 mil  Layers: 2
+Connections   :   187   predefined:  175 ( 29 Vias )
 
-Router memory :   233208
+Router memory :   1422160
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:02  00:00:00  00:00:01  00:00:00  00:00:01
-Number of Ripups  :         2         0         0         0         0
+Time per pass     :  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01
+Number of Ripups  :         0         0         0         0         0
 max. Level        :         1         0         0         0         0
-max. Total        :        26         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Routed            :        64        65        65        65        65
-Vias              :        17        14        14        14        10
-Resolution        :    88.1 %    88.8 %    88.8 %    88.8 %    88.8 %
+Routed            :        11        11        11        11        11
+Vias              :         8         6         6         6         6
+Resolution        :    99.5 %    99.5 %    99.5 %    99.5 %    99.5 %
 
-Final             : 88.8% finished
+Final             : 99.5% finished
