@@ -6,22 +6,22 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -187,6 +187,50 @@ Eagle library for internal use only.
 &lt;br&gt;&lt;br&gt;&lt;br&gt;
 For any queries, contact Rohit (rohit at seas dot upenn dot edu)</description>
 <packages>
+<package name="OMNETICS36PADSMT">
+<description>&lt;b&gt;Omnetics 36-Pad SMT &lt;/b&gt;</description>
+<smd name="R1" x="-5.3975" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="1" x="-4.7625" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="2" x="-4.1275" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="3" x="-3.4925" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="4" x="-2.8575" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="5" x="-2.2225" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="6" x="-1.5875" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="7" x="-0.9525" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="8" x="-0.3175" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="9" x="0.3175" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="10" x="0.9525" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="11" x="1.5875" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="12" x="2.2225" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="13" x="2.8575" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="14" x="3.4925" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="15" x="4.1275" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="16" x="4.7625" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="G1" x="5.3975" y="-0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="G2" x="-5.3975" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="17" x="-4.7625" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="18" x="-4.1275" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="19" x="-3.4925" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="20" x="-2.8575" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="21" x="-2.2225" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="22" x="-1.5875" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="23" x="-0.9525" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="24" x="-0.3175" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="25" x="0.3175" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="26" x="0.9525" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="27" x="1.5875" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="28" x="2.2225" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="29" x="2.8575" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="30" x="3.4925" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="31" x="4.1275" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="32" x="4.7625" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<smd name="R2" x="5.3975" y="0.508" dx="0.635" dy="0.381" layer="1" rot="R90"/>
+<wire x1="-6.5405" y1="-1.016" x2="-6.5405" y2="1.016" width="0.127" layer="21"/>
+<wire x1="6.5405" y1="-1.016" x2="6.5405" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-6.5405" y1="1.016" x2="6.5405" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-6.5405" y1="-1.016" x2="6.5405" y2="-1.016" width="0.127" layer="21"/>
+<text x="-6.477" y="1.2065" size="1.27" layer="25">&gt;NAME</text>
+</package>
 <package name="OMNETICS36PADPTH">
 <description>&lt;b&gt;Omnetics 36-Pad SMT &lt;/b&gt;</description>
 <pad name="R1" x="-4.7625" y="-0.381" drill="0.254" diameter="0.508"/>
@@ -481,7 +525,50 @@ PTH Part Number: A79023-001</description>
 <gate name="B" symbol="OMNETICS" x="2.54" y="0" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="OMNETICS36PADPTH">
+<device name="PTH" package="OMNETICS36PADPTH">
+<connects>
+<connect gate="A" pin="P$1" pad="R1"/>
+<connect gate="A" pin="P$10" pad="9"/>
+<connect gate="A" pin="P$11" pad="10"/>
+<connect gate="A" pin="P$12" pad="11"/>
+<connect gate="A" pin="P$13" pad="12"/>
+<connect gate="A" pin="P$14" pad="13"/>
+<connect gate="A" pin="P$15" pad="14"/>
+<connect gate="A" pin="P$16" pad="15"/>
+<connect gate="A" pin="P$17" pad="16"/>
+<connect gate="A" pin="P$18" pad="G1"/>
+<connect gate="A" pin="P$2" pad="1"/>
+<connect gate="A" pin="P$3" pad="2"/>
+<connect gate="A" pin="P$4" pad="3"/>
+<connect gate="A" pin="P$5" pad="4"/>
+<connect gate="A" pin="P$6" pad="5"/>
+<connect gate="A" pin="P$7" pad="6"/>
+<connect gate="A" pin="P$8" pad="7"/>
+<connect gate="A" pin="P$9" pad="8"/>
+<connect gate="B" pin="P$1" pad="G2"/>
+<connect gate="B" pin="P$10" pad="25"/>
+<connect gate="B" pin="P$11" pad="26"/>
+<connect gate="B" pin="P$12" pad="27"/>
+<connect gate="B" pin="P$13" pad="28"/>
+<connect gate="B" pin="P$14" pad="29"/>
+<connect gate="B" pin="P$15" pad="30"/>
+<connect gate="B" pin="P$16" pad="31"/>
+<connect gate="B" pin="P$17" pad="32"/>
+<connect gate="B" pin="P$18" pad="R2"/>
+<connect gate="B" pin="P$2" pad="17"/>
+<connect gate="B" pin="P$3" pad="18"/>
+<connect gate="B" pin="P$4" pad="19"/>
+<connect gate="B" pin="P$5" pad="20"/>
+<connect gate="B" pin="P$6" pad="21"/>
+<connect gate="B" pin="P$7" pad="22"/>
+<connect gate="B" pin="P$8" pad="23"/>
+<connect gate="B" pin="P$9" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="OMNETICS36PADSMT">
 <connects>
 <connect gate="A" pin="P$1" pad="R1"/>
 <connect gate="A" pin="P$10" pad="9"/>
@@ -6275,38 +6362,38 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="X1" library="mor307" deviceset="OMNETICS_36PAD" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C30" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C31" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C32" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C29" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C30" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C31" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
+<part name="C32" library="rcl" deviceset="C-EU" device="C0402" value="22nf"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0402"/>
@@ -7275,15 +7362,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="R" class="0">
 <segment>
-<pinref part="X1" gate="A" pin="P$1"/>
-<wire x1="20.32" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="162.56" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="205.74" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X1" gate="B" pin="P$1"/>
 <wire x1="355.6" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="162.56" x2="347.98" y2="205.74" width="0.1524" layer="91"/>
@@ -7291,6 +7369,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="205.74" y1="205.74" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="A" pin="P$18"/>
+<wire x1="20.32" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="119.38" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="76.2" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="19"/>
+<wire x1="167.64" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -7304,13 +7391,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="205.74" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="A" pin="P$18"/>
-<wire x1="20.32" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="119.38" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="76.2" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="19"/>
-<wire x1="167.64" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="X1" gate="A" pin="P$1"/>
+<wire x1="20.32" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="162.56" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="205.74" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

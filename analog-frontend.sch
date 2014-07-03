@@ -8352,11 +8352,11 @@ chip</description>
 <part name="IC1" library="mor307" deviceset="TPS63031" device=""/>
 <part name="L1" library="mor307" deviceset="VLS25201" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0201"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0201"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="IC3" library="mor307" deviceset="TM4C123G" device=""/>
 <part name="IC4" library="mor307" deviceset="INA332" device=""/>
@@ -8434,15 +8434,15 @@ chip</description>
 <part name="+3V9" library="supply1" deviceset="+3V3" device="" value="VDDA"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0201"/>
-<part name="TP1" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP2" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP3" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP4" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP5" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP6" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP7" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP8" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP9" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="RXD" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TXD" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TCK" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TMS" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TDI" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TDO" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="RST" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="3.3V" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="GND" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device="" value="GNDA"/>
@@ -8562,15 +8562,15 @@ chip</description>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="274.32" y="170.18" rot="R90"/>
 <instance part="R1" gate="G$1" x="29.21" y="205.74"/>
-<instance part="TP1" gate="G$1" x="165.1" y="142.24" rot="R180"/>
-<instance part="TP2" gate="G$1" x="170.18" y="142.24" rot="R180"/>
-<instance part="TP3" gate="G$1" x="147.32" y="114.3" rot="R270"/>
-<instance part="TP4" gate="G$1" x="147.32" y="119.38" rot="R270"/>
-<instance part="TP5" gate="G$1" x="147.32" y="124.46" rot="R270"/>
-<instance part="TP6" gate="G$1" x="147.32" y="129.54" rot="R270"/>
-<instance part="TP7" gate="G$1" x="43.18" y="134.62" rot="R180"/>
-<instance part="TP8" gate="G$1" x="104.14" y="228.6" rot="R180"/>
-<instance part="TP9" gate="G$1" x="111.76" y="195.58"/>
+<instance part="RXD" gate="G$1" x="165.1" y="142.24" rot="R180"/>
+<instance part="TXD" gate="G$1" x="170.18" y="142.24" rot="R180"/>
+<instance part="TCK" gate="G$1" x="147.32" y="114.3" rot="R270"/>
+<instance part="TMS" gate="G$1" x="147.32" y="119.38" rot="R270"/>
+<instance part="TDI" gate="G$1" x="147.32" y="124.46" rot="R270"/>
+<instance part="TDO" gate="G$1" x="147.32" y="129.54" rot="R270"/>
+<instance part="RST" gate="G$1" x="43.18" y="134.62" rot="R180"/>
+<instance part="3.3V" gate="G$1" x="104.14" y="228.6" rot="R180"/>
+<instance part="GND" gate="G$1" x="111.76" y="195.58"/>
 <instance part="C16" gate="G$1" x="213.36" y="236.22" rot="R270"/>
 <instance part="R4" gate="G$1" x="223.52" y="243.84" rot="R90"/>
 <instance part="SUPPLY11" gate="GND" x="139.7" y="175.26"/>
@@ -8853,7 +8853,7 @@ chip</description>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="208.28" x2="101.6" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
+<pinref part="GND" gate="G$1" pin="TP"/>
 <wire x1="111.76" y1="198.12" x2="111.76" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="208.28" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 <junction x="101.6" y="208.28"/>
@@ -9300,7 +9300,7 @@ chip</description>
 <wire x1="101.6" y1="218.44" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
 <junction x="101.6" y="218.44"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
+<pinref part="3.3V" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="218.44" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="226.06" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
 <junction x="104.14" y="218.44"/>
@@ -9540,7 +9540,7 @@ chip</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="119.38" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
+<pinref part="RST" gate="G$1" pin="TP"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
 <junction x="43.18" y="119.38"/>
 </segment>
@@ -9550,7 +9550,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PA0"/>
 <wire x1="172.72" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <label x="162.56" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="TXD" gate="G$1" pin="TP"/>
 <wire x1="170.18" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="139.7" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <junction x="170.18" y="134.62"/>
@@ -9561,7 +9561,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PA1"/>
 <wire x1="172.72" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 <label x="162.56" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="RXD" gate="G$1" pin="TP"/>
 <wire x1="165.1" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="139.7" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 <junction x="165.1" y="132.08"/>
@@ -9572,7 +9572,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PC0"/>
 <wire x1="172.72" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
 <label x="162.56" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="TCK" gate="G$1" pin="TP"/>
 <wire x1="149.86" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="114.3" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -9582,7 +9582,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PC1"/>
 <wire x1="172.72" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="162.56" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="TMS" gate="G$1" pin="TP"/>
 <wire x1="165.1" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="119.38" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
@@ -9594,7 +9594,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PC2"/>
 <wire x1="172.72" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
 <label x="162.56" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="TDI" gate="G$1" pin="TP"/>
 <wire x1="167.64" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="124.46" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
@@ -9606,7 +9606,7 @@ chip</description>
 <pinref part="IC3" gate="A" pin="PC3"/>
 <wire x1="172.72" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <label x="162.56" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
+<pinref part="TDO" gate="G$1" pin="TP"/>
 <wire x1="170.18" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="129.54" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
