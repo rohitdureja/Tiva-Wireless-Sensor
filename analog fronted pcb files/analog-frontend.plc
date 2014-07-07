@@ -1995,6 +1995,9 @@ X008953Y004080D02*
 X008953Y004004D01*
 X008953Y003824D02*
 X008953Y003748D01*
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 D15*
 X008684Y004514D02*

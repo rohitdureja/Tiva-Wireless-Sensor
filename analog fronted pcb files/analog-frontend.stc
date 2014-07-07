@@ -248,6 +248,9 @@ X010793Y004142D03*
 X010793Y003941D03*
 X003048Y009316D03*
 X003048Y009517D03*
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 D19*
 X008214Y006542D03*
@@ -323,8 +326,11 @@ X009877Y010457D03*
 X010657Y009377D03*
 D23*
 <<<<<<< HEAD
+<<<<<<< HEAD
 X000877Y006927D03*
 =======
+=======
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
 X007188Y006243D03*
 X007188Y005731D03*
 X002718Y008961D03*

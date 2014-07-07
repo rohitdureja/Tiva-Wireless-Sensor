@@ -19,8 +19,13 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+=======
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
 =======
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -38,6 +43,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
@@ -47,6 +53,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 =======
+=======
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -55,6 +63,9 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -2646,6 +2657,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <element name="LED1" library="ng" package="0402" value="" x="4.826" y="21.2852" rot="R90"/>
 <element name="R15" library="rcl" package="R0201" value="" x="5.6642" y="21.7932" rot="R90"/>
 <element name="R16" library="FAB_Hello" package="0402" value="" x="-0.6604" y="-4.2164"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </elements>
 <signals>
@@ -3363,6 +3377,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <vertex x="26.5684" y="0.127"/>
 <vertex x="0.0762" y="0.127"/>
 </polygon>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$33">
@@ -3527,6 +3544,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <vertex x="0.1016" y="0.127"/>
 <vertex x="0.1016" y="25.0444"/>
 </polygon>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="VDDA" class="1">
@@ -3719,6 +3739,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="17.6276" y1="15.7988" x2="18.415" y2="15.7988" width="0.2032" layer="16"/>
 <wire x1="18.415" y1="15.7988" x2="18.9738" y2="15.24" width="0.2032" layer="16"/>
 <wire x1="18.9738" y1="15.24" x2="18.9738" y2="11.0236" width="0.2032" layer="16"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$42">
@@ -3774,6 +3797,7 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="23.8506" y1="9.0932" x2="23.8506" y2="8.001" width="0.2032" layer="16"/>
 </signal>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <signal name="N$41">
 <contactref element="R12" pad="1"/>
 <contactref element="IC6" pad="7"/>
@@ -3785,6 +3809,8 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="25.908" y1="8.9408" x2="26.4899" y2="8.9408" width="0.2032" layer="1"/>
 <wire x1="26.4899" y1="8.9408" x2="26.5176" y2="8.9685" width="0.2032" layer="1"/>
 =======
+=======
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
 <signal name="AIN">
 <contactref element="R4" pad="1"/>
 <contactref element="IC4" pad="7"/>
@@ -3813,6 +3839,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="19.431" y1="15.8496" x2="19.4818" y2="15.9004" width="0.1524" layer="1"/>
 <via x="19.4818" y="15.9004" extent="1-16" drill="0.254" diameter="0.6604"/>
 <wire x1="19.4818" y1="15.9004" x2="19.4818" y2="11.8872" width="0.1524" layer="16"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$47">
@@ -4070,6 +4099,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="11.426" y1="21.0058" x2="11.426" y2="20.5486" width="0.2032" layer="1"/>
 <wire x1="6.9048" y1="20.7518" x2="6.9034" y2="20.7518" width="0.2032" layer="1"/>
 <wire x1="6.9034" y1="20.7518" x2="6.9034" y2="19.4303" width="0.2032" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$35">
@@ -4169,6 +4201,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="21.6926" y1="15.5448" x2="21.6916" y2="15.5448" width="0.1524" layer="1"/>
 <wire x1="20.8611" y1="16.7055" x2="21.6926" y2="15.874" width="0.1524" layer="1"/>
 <wire x1="21.6926" y1="15.874" x2="21.6926" y2="15.5448" width="0.1524" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$50">
@@ -4301,6 +4336,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="2.5621" y1="13.589" x2="2.5534" y2="13.5803" width="0.2032" layer="1"/>
 <wire x1="17.018" y1="13.4834" x2="16.6306" y2="13.4834" width="0.2032" layer="1"/>
 <wire x1="16.6306" y1="13.4834" x2="16.1798" y2="13.731" width="0.2032" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$49">
@@ -4442,6 +4480,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <wire x1="16.1544" y1="15.4432" x2="15.2908" y2="14.5796" width="0.2032" layer="1"/>
 <wire x1="15.2908" y1="14.5796" x2="13.7541" y2="14.5796" width="0.2032" layer="1"/>
 <wire x1="13.7541" y1="14.5796" x2="13.7534" y2="14.5803" width="0.2032" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 <signal name="N$61">
@@ -4566,6 +4607,9 @@ Min trace width, spacing, drill size and dimension clearance for Advanced Circui
 <contactref element="R15" pad="2"/>
 <wire x1="5.6642" y1="22.0482" x2="4.939" y2="22.0482" width="0.2032" layer="1"/>
 <wire x1="4.939" y1="22.0482" x2="4.826" y2="21.9352" width="0.2032" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> parent of c675796... Revert "fixed analog input connection"
+=======
 >>>>>>> parent of c675796... Revert "fixed analog input connection"
 </signal>
 </signals>
