@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -128,15 +128,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="26.67" y2="0" width="0" layer="20"/>
-<wire x1="26.67" y1="0" x2="26.67" y2="25.146" width="0" layer="20"/>
-<wire x1="26.67" y1="25.146" x2="0" y2="25.146" width="0" layer="20"/>
-<wire x1="0" y1="25.146" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="26.67" y2="0" width="0" layer="21"/>
+<wire x1="26.67" y1="0" x2="26.67" y2="25.146" width="0" layer="21"/>
+<wire x1="26.67" y1="25.146" x2="0" y2="25.146" width="0" layer="21"/>
+<wire x1="0" y1="25.146" x2="0" y2="0" width="0" layer="21"/>
 <text x="2.159" y="22.5425" size="0.8128" layer="25" rot="R270">GND</text>
 <text x="2.8575" y="2.7305" size="0.8128" layer="25" font="fixed" rot="R90">REF</text>
 <text x="24.4475" y="2.8575" size="0.8128" layer="25" font="fixed" rot="R90">GND</text>
 <text x="23.8125" y="22.4155" size="0.8128" layer="25" font="fixed" rot="R270">REF</text>
 <rectangle x1="24.9047" y1="2.7686" x2="25.7683" y2="5.3594" layer="25"/>
+<wire x1="0" y1="0" x2="26.67" y2="0" width="0" layer="22"/>
+<wire x1="26.67" y1="0" x2="26.67" y2="25.146" width="0" layer="22"/>
+<wire x1="26.67" y1="25.146" x2="0" y2="25.146" width="0" layer="22"/>
+<wire x1="0" y1="25.146" x2="0" y2="0" width="0" layer="22"/>
 </plain>
 <libraries>
 <library name="mor307">

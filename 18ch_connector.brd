@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -128,10 +128,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0.003" x2="7.501" y2="0.003" width="0" layer="20"/>
-<wire x1="7.501" y1="0.003" x2="7.501" y2="6.659" width="0" layer="20"/>
-<wire x1="7.501" y1="6.659" x2="0" y2="6.659" width="0" layer="20"/>
-<wire x1="0" y1="6.659" x2="0" y2="0.003" width="0" layer="20"/>
+<wire x1="0" y1="0.003" x2="7.501" y2="0.003" width="0" layer="21"/>
+<wire x1="7.501" y1="0.003" x2="7.501" y2="6.659" width="0" layer="21"/>
+<wire x1="7.501" y1="6.659" x2="0" y2="6.659" width="0" layer="21"/>
+<wire x1="0" y1="6.659" x2="0" y2="0.003" width="0" layer="21"/>
+<wire x1="0.000509375" y1="0.002665625" x2="7.50049375" y2="0.002665625" width="0" layer="22"/>
+<wire x1="7.50049375" y1="0.002665625" x2="7.50049375" y2="6.65924375" width="0" layer="22"/>
+<wire x1="7.50049375" y1="6.65924375" x2="0" y2="6.65924375" width="0" layer="22"/>
+<wire x1="0" y1="6.65924375" x2="0" y2="0.002159375" width="0" layer="22"/>
 </plain>
 <libraries>
 <library name="mor307">
