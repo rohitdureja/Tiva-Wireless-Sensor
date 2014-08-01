@@ -8362,20 +8362,20 @@ chip</description>
 <part name="IC4" library="mor307" deviceset="INA332" device=""/>
 <part name="IC6" library="mor307" deviceset="OPA2320" device=""/>
 <part name="IC5" library="SparkFun-RF" deviceset="NRF24L01" device="SMD"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C23" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="10p"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
+<part name="C23" library="rcl" deviceset="C-EU" device="C0402" value="10n"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device="" value="GNDA"/>
-<part name="C25" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C25" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C28" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
+<part name="C28" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device="" value="VDDA"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device="" value="VDDA"/>
@@ -8387,29 +8387,29 @@ chip</description>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device="" value="VDD"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="33n"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0402" value="22K"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="Y2" library="mor307" deviceset="CRYSTAL3X2" device=""/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="1M"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
-<part name="L3" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="L4" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="L2" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="L3" library="rcl" deviceset="R-US_" device="R0402" value="3.9n"/>
+<part name="L4" library="rcl" deviceset="R-US_" device="R0402" value="2.7n"/>
+<part name="L2" library="rcl" deviceset="R-US_" device="R0402" value="8.2n"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="C0402" value="1.5p"/>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="1.0p"/>
+<part name="C22" library="rcl" deviceset="C-EU" device="C0402" value="2.2n"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="C0402" value="4.7p"/>
 <part name="U$1" library="SparkFun-RF" deviceset="ANTENNA2" device="SMD5"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device="" value="VDD"/>
 <part name="Y1" library="mor307" deviceset="CRYSTAL3X2" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="22p"/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
@@ -8429,8 +8429,8 @@ chip</description>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device="" value="VDD"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device="" value="VDDA"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0201"/>
@@ -8447,7 +8447,7 @@ chip</description>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device="" value="GNDA"/>
 <part name="LED1" library="ng" deviceset="LED" device="0402"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
